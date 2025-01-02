@@ -1,0 +1,43 @@
+h1{
+    margin: 4rem auto;
+    text-align: center;
+}
+h2{
+    margin: 2rem auto;
+    text-align: center;
+}
+.space{
+    margin-top: 3rem;
+}
+.back{
+    margin: 4rem 1rem;
+    text-decoration: none;
+}
+.card{
+    width: 15rem;
+    margin: auto;
+    align-items: center;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img-top{
+    width: 10rem;
+    height: 10rem;
+}
+.row-cols-lg-2{
+    margin: 10rem 5rem;
+}
+a{
+    text-decoration: none;
+}
+/* pc */
+
+@media only screen and (max-width: 1000px) {
+    .card{
+      margin-bottom: 2rem;
+    }
+    .row-cols-lg-2{
+        margin: 8rem 5rem;
+    }
+  }
