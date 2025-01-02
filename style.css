@@ -31,6 +31,10 @@ h2{
 a{
     text-decoration: none;
 }
+.magic{
+    width: 15rem;
+    margin: 0 auto;
+}
 /* pc */
 
 @media only screen and (max-width: 1000px) {
